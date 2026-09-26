@@ -38,7 +38,5 @@
 .\build\test\.obj\__\USER_code\chassis\M3508.o: ../USER_code/application/CAN_receive.h
 .\build\test\.obj\__\USER_code\chassis\M3508.o: ../USER_code/boards/bsp_can.h
 .\build\test\.obj\__\USER_code\chassis\M3508.o: .\..\USER_code\chassis\imu.h
-.\build\test\.obj\__\USER_code\chassis\M3508.o: ../Core/Inc/usart.h
-.\build\test\.obj\__\USER_code\chassis\M3508.o: ../Core/Inc/main.h
 .\build\test\.obj\__\USER_code\chassis\M3508.o: .\..\USER_code\chassis\odometer.h
 .\build\test\.obj\__\USER_code\chassis\M3508.o: .\..\USER_code\chassis\speed_planner.h

@@ -1,6 +1,5 @@
 .\build\test\.obj\__\USER_code\delay_us\delay_us.o: .\..\USER_code\delay_us\delay_us.c
 .\build\test\.obj\__\USER_code\delay_us\delay_us.o: .\..\USER_code\delay_us\delay_us.h
-.\build\test\.obj\__\USER_code\delay_us\delay_us.o: ../Core/Inc/main.h
 .\build\test\.obj\__\USER_code\delay_us\delay_us.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 .\build\test\.obj\__\USER_code\delay_us\delay_us.o: ../Core/Inc/stm32f4xx_hal_conf.h
 .\build\test\.obj\__\USER_code\delay_us\delay_us.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
@@ -34,3 +33,4 @@
 .\build\test\.obj\__\USER_code\delay_us\delay_us.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h
 .\build\test\.obj\__\USER_code\delay_us\delay_us.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h
 .\build\test\.obj\__\USER_code\delay_us\delay_us.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+.\build\test\.obj\__\USER_code\delay_us\delay_us.o: ../Core/Inc/main.h

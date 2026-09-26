@@ -36,5 +36,3 @@
 .\build\test\.obj\__\USER_code\chassis\odometer.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
 .\build\test\.obj\__\USER_code\chassis\odometer.o: ../USER_code/application/struct_typedef.h
 .\build\test\.obj\__\USER_code\chassis\odometer.o: .\..\USER_code\chassis\imu.h
-.\build\test\.obj\__\USER_code\chassis\odometer.o: ../Core/Inc/usart.h
-.\build\test\.obj\__\USER_code\chassis\odometer.o: ../Core/Inc/main.h

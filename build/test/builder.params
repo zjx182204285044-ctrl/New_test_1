@@ -7,7 +7,7 @@
     "buildMode": "fast|multhread",
     "showRepathOnLog": true,
     "threadNum": 20,
-    "rootDir": "c:\\Users\\A\\Desktop\\unite_version_car\\unite_version_car\\test\\MDK-ARM",
+    "rootDir": "c:\\Users\\A\\Desktop\\unite_version_car(1)\\unite_version_car\\test\\MDK-ARM",
     "dumpPath": "build\\test",
     "outDir": "build\\test",
     "ram": 131072,
@@ -83,6 +83,7 @@
         "../USER_code/Tower/Servo/gimbal_solver.c",
         "../USER_code/Tower/Servo/servo.c",
         "../USER_code/Tower/bjdj/Emm_V5.c",
+        "../USER_code/Tower/lll/task_tower.c",
         "../USER_code/Tower/vision/vision_data_.c",
         "../USER_code/application/CAN_receive.c",
         "../USER_code/boards/bsp_can.c",
@@ -133,21 +134,21 @@
             "rw-base": "",
             "xo-base": "",
             "link-scatter": [
-                "c:/Users/A/Desktop/unite_version_car/unite_version_car/test/MDK-ARM/build/test/test.sct"
+                "c:/Users/A/Desktop/unite_version_car(1)/unite_version_car/test/MDK-ARM/build/test/test.sct"
             ]
         }
     },
     "env": {
         "KEIL_OUTPUT_DIR": "test",
-        "workspaceFolder": "c:\\Users\\A\\Desktop\\unite_version_car\\unite_version_car\\test\\MDK-ARM",
+        "workspaceFolder": "c:\\Users\\A\\Desktop\\unite_version_car(1)\\unite_version_car\\test\\MDK-ARM",
         "workspaceFolderBasename": "MDK-ARM",
-        "OutDir": "c:\\Users\\A\\Desktop\\unite_version_car\\unite_version_car\\test\\MDK-ARM\\build\\test",
+        "OutDir": "c:\\Users\\A\\Desktop\\unite_version_car(1)\\unite_version_car\\test\\MDK-ARM\\build\\test",
         "OutDirRoot": "build",
         "OutDirBase": "build\\test",
         "ProjectName": "test",
         "ConfigName": "test",
-        "ProjectRoot": "c:\\Users\\A\\Desktop\\unite_version_car\\unite_version_car\\test\\MDK-ARM",
-        "ExecutableName": "c:\\Users\\A\\Desktop\\unite_version_car\\unite_version_car\\test\\MDK-ARM\\build\\test\\test",
+        "ProjectRoot": "c:\\Users\\A\\Desktop\\unite_version_car(1)\\unite_version_car\\test\\MDK-ARM",
+        "ExecutableName": "c:\\Users\\A\\Desktop\\unite_version_car(1)\\unite_version_car\\test\\MDK-ARM\\build\\test\\test",
         "ChipPackDir": "",
         "ChipName": "",
         "SYS_Platform": "win32",

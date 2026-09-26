@@ -93,8 +93,6 @@ virtualFolder:
         - path: ../USER_code/chassis/A_star.h
         - path: ../USER_code/chassis/imu.c
         - path: ../USER_code/chassis/imu.h
-        - path: ../USER_code/chassis/M3508.c
-        - path: ../USER_code/chassis/M3508.h
         - path: ../USER_code/chassis/navigation.c
         - path: ../USER_code/chassis/navigation.h
         - path: ../USER_code/chassis/odometer.c
@@ -107,6 +105,8 @@ virtualFolder:
         - path: ../USER_code/delay_us/delay_us.h
         - path: ../USER_code/pid/pid.c
         - path: ../USER_code/pid/pid.h
+        - path: ../USER_code/chassis/M3508.c
+        - path: ../USER_code/chassis/M3508.h
       folders: []
     - name: TOEWR
       files:
@@ -120,6 +120,8 @@ virtualFolder:
         - path: ../USER_code/Tower/Servo/servo.h
         - path: ../USER_code/Tower/vision/vision_data_.c
         - path: ../USER_code/Tower/vision/vision_data_.h
+        - path: ../USER_code/Tower/lll/task_tower.c
+        - path: ../USER_code/Tower/lll/task_tower.h
       folders: []
     - name: ::CMSIS
       files: []
@@ -270,8 +272,8 @@ targets:
         baseAddr: ""
         bin: ""
         cpuInfo:
-          cpuName: "null"
-          vendor: "null"
+          cpuName: STM32F407ZG
+          vendor: ST
         otherCmds: ""
         proType: 1
         speed: 8000
@@ -285,4 +287,4 @@ targets:
         resetMode: default
         runAfterProgram: true
         speed: 4000
-    uploader: STLink
+    uploader: JLink

@@ -39,6 +39,7 @@
 .\build\test\.obj\__\USER_code\Tower\Servo\gimbal_solver.o
 .\build\test\.obj\__\USER_code\Tower\Servo\servo.o
 .\build\test\.obj\__\USER_code\Tower\bjdj\Emm_V5.o
+.\build\test\.obj\__\USER_code\Tower\lll\task_tower.o
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o
 .\build\test\.obj\__\USER_code\application\CAN_receive.o
 .\build\test\.obj\__\USER_code\boards\bsp_can.o

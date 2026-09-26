@@ -64,3 +64,4 @@
 .\build\test\.obj\__\Core\Src\main.o: ../USER_code/Tower/Servo/gimbal_solver.h
 .\build\test\.obj\__\Core\Src\main.o: ../USER_code/Tower/vision/vision_data_.h
 .\build\test\.obj\__\Core\Src\main.o: ../USER_code/delay_us/delay_us.h
+.\build\test\.obj\__\Core\Src\main.o: ../USER_code/Tower/lll/task_tower.h

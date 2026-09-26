@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../USB_DEVICE/App;../USB_DEVICE/Target;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/ST/STM32_USB_Device_Library/Core/Inc;../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\USER_code\Tower\bjdj;..\USER_code\Tower\lll;..\USER_code\Tower\Screen;..\USER_code\Tower\vision;..\USER_code\Tower\Servo;..\USER_code\pid;..\USER_code\.git;..\USER_code\application;..\USER_code\boards;..\USER_code\delay_us;..\USER_code\chassis</IncludePath>
+              <IncludePath>../Core/Inc;../USB_DEVICE/App;../USB_DEVICE/Target;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/ST/STM32_USB_Device_Library/Core/Inc;../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../USER_code/Tower/bjdj;../USER_code/Tower/lll;../USER_code/Tower/Screen;../USER_code/Tower/vision;../USER_code/Tower/Servo;../USER_code/pid;../USER_code/.git;../USER_code/application;../USER_code/boards;../USER_code/delay_us;../USER_code/chassis</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -655,16 +655,6 @@
               <FilePath>..\USER_code\chassis\imu.h</FilePath>
             </File>
             <File>
-              <FileName>M3508.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\USER_code\chassis\M3508.c</FilePath>
-            </File>
-            <File>
-              <FileName>M3508.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\USER_code\chassis\M3508.h</FilePath>
-            </File>
-            <File>
               <FileName>navigation.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\USER_code\chassis\navigation.c</FilePath>
@@ -724,6 +714,16 @@
               <FileType>5</FileType>
               <FilePath>..\USER_code\pid\pid.h</FilePath>
             </File>
+            <File>
+              <FileName>M3508.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER_code\chassis\M3508.c</FilePath>
+            </File>
+            <File>
+              <FileName>M3508.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER_code\chassis\M3508.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -778,6 +778,16 @@
               <FileName>vision_data_.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\USER_code\Tower\vision\vision_data_.h</FilePath>
+            </File>
+            <File>
+              <FileName>task_tower.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER_code\Tower\lll\task_tower.c</FilePath>
+            </File>
+            <File>
+              <FileName>task_tower.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER_code\Tower\lll\task_tower.h</FilePath>
             </File>
           </Files>
         </Group>

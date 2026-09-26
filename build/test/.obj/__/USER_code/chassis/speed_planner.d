@@ -37,5 +37,3 @@
 .\build\test\.obj\__\USER_code\chassis\speed_planner.o: ../USER_code/application/CAN_receive.h
 .\build\test\.obj\__\USER_code\chassis\speed_planner.o: ../USER_code/application/struct_typedef.h
 .\build\test\.obj\__\USER_code\chassis\speed_planner.o: .\..\USER_code\chassis\imu.h
-.\build\test\.obj\__\USER_code\chassis\speed_planner.o: ../Core/Inc/usart.h
-.\build\test\.obj\__\USER_code\chassis\speed_planner.o: ../Core/Inc/main.h
