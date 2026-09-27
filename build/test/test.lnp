@@ -1,4 +1,4 @@
---cpu Cortex-M4.fp --scatter c:/Users/A/Documents/xwechat_files/wxid_o4k0sfeykbpg22_7a5d/msg/file/2026-09/unite_version_car(1)/unite_version_car/test/MDK-ARM/build/test/test.sct --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
+--cpu Cortex-M4.fp --scatter c:/Users/A/Desktop/unite_version_car(1)/unite_version_car/test/MDK-ARM/build/test/test.sct --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
 --list .\build\test\test.map
 .\build\test\.obj\__\Core\Src\can.o
 .\build\test\.obj\__\Core\Src\dma.o

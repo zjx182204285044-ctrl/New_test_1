@@ -1,6 +1,6 @@
 r
 halt
-loadfile "c:\Users\A\Documents\xwechat_files\wxid_o4k0sfeykbpg22_7a5d\msg\file\2026-09\unite_version_car(1)\unite_version_car\test\MDK-ARM\build\test\test.hex"
+loadfile "c:\Users\A\Desktop\unite_version_car(1)\unite_version_car\test\MDK-ARM\build\test\test.hex"
 r
 go
 exit
