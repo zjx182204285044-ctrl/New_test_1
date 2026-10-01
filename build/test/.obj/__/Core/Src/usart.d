@@ -51,4 +51,3 @@
 .\build\test\.obj\__\Core\Src\usart.o: ../USER_code/Tower/Servo/servo.h
 .\build\test\.obj\__\Core\Src\usart.o: ../USER_code/Tower/vision/vision_data_.h
 .\build\test\.obj\__\Core\Src\usart.o: ../Core/Inc/tim.h
-.\build\test\.obj\__\Core\Src\usart.o: ../USER_code/delay_us/delay_us.h

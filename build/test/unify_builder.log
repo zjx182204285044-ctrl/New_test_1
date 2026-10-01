@@ -1126,3 +1126,17 @@ command:
                        ^
 .\..\Core\Src\main.c: 0 warnings, 1 error
 
+[2026-10-01 08:21:17]	[info] incremental build: 7 source files changed
+These source files will be recompiled
+---
+'c:\Users\A\Desktop\unite_version_car(1)\unite_version_car\test\Core\Src\main.c': dependence 'c:\Users\A\Desktop\unite_version_car(1)\unite_version_car\test\MDK-ARM\..\USER_code\Tower\Servo\gimbal_solver.h' has been changed.
+'c:\Users\A\Desktop\unite_version_car(1)\unite_version_car\test\Core\Src\usart.c': dependence 'c:\Users\A\Desktop\unite_version_car(1)\unite_version_car\test\MDK-ARM\..\USER_code\Tower\Servo\gimbal_solver.h' has been changed.
+'c:\Users\A\Desktop\unite_version_car(1)\unite_version_car\test\USB_DEVICE\App\usbd_cdc_if.c': dependence 'c:\Users\A\Desktop\unite_version_car(1)\unite_version_car\test\MDK-ARM\..\USER_code\Tower\Servo\gimbal_solver.h' has been changed.
+'c:\Users\A\Desktop\unite_version_car(1)\unite_version_car\test\USER_code\Tower\Servo\gimbal_solver.c': dependence 'c:\Users\A\Desktop\unite_version_car(1)\unite_version_car\test\MDK-ARM\..\USER_code\Tower\Servo\gimbal_solver.h' has been changed.
+'c:\Users\A\Desktop\unite_version_car(1)\unite_version_car\test\USER_code\Tower\Tower_test\tower_test.c': object (.o) file not exist
+'c:\Users\A\Desktop\unite_version_car(1)\unite_version_car\test\USER_code\Tower\lll\task_tower.c': dependence 'c:\Users\A\Desktop\unite_version_car(1)\unite_version_car\test\MDK-ARM\..\USER_code\Tower\Servo\gimbal_solver.h' has been changed.
+'c:\Users\A\Desktop\unite_version_car(1)\unite_version_car\test\USER_code\Tower\vision\vision_data_.c': dependence 'c:\Users\A\Desktop\unite_version_car(1)\unite_version_car\test\MDK-ARM\..\USER_code\Tower\Servo\gimbal_solver.h' has been changed.
+
+[2026-10-01 08:21:20]	[done]
+	build successfully !
+

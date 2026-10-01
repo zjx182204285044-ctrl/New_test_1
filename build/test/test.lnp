@@ -46,6 +46,7 @@
 .\build\test\.obj\__\USER_code\Tower\Screen\tjc_usart_hmi.o
 .\build\test\.obj\__\USER_code\Tower\Servo\gimbal_solver.o
 .\build\test\.obj\__\USER_code\Tower\Servo\servo.o
+.\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o
 .\build\test\.obj\__\USER_code\Tower\bjdj\Emm_V5.o
 .\build\test\.obj\__\USER_code\Tower\lll\task_tower.o
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o
@@ -58,7 +59,6 @@
 .\build\test\.obj\__\USER_code\chassis\odometer.o
 .\build\test\.obj\__\USER_code\chassis\ring_buffer.o
 .\build\test\.obj\__\USER_code\chassis\speed_planner.o
-.\build\test\.obj\__\USER_code\delay_us\delay_us.o
 .\build\test\.obj\__\USER_code\pid\pid.o
 .\build\test\.obj\lcd_.o
 .\build\test\.obj\mytime_.o

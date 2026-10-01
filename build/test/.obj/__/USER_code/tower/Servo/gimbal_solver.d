@@ -51,4 +51,3 @@
 .\build\test\.obj\__\USER_code\Tower\Servo\gimbal_solver.o: ../USER_code/Tower/Screen/tjc_usart_hmi.h
 .\build\test\.obj\__\USER_code\Tower\Servo\gimbal_solver.o: ../USER_code/Tower/Servo/gimbal_solver.h
 .\build\test\.obj\__\USER_code\Tower\Servo\gimbal_solver.o: ../Core/Inc/tim.h
-.\build\test\.obj\__\USER_code\Tower\Servo\gimbal_solver.o: ../USER_code/delay_us/delay_us.h

@@ -51,4 +51,3 @@
 .\build\test\.obj\__\USB_DEVICE\App\usbd_cdc_if.o: ../USER_code/Tower/Servo/servo.h
 .\build\test\.obj\__\USB_DEVICE\App\usbd_cdc_if.o: ../USER_code/Tower/vision/vision_data_.h
 .\build\test\.obj\__\USB_DEVICE\App\usbd_cdc_if.o: ../Core/Inc/tim.h
-.\build\test\.obj\__\USB_DEVICE\App\usbd_cdc_if.o: ../USER_code/delay_us/delay_us.h

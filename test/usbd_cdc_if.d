@@ -58,4 +58,3 @@ test\usbd_cdc_if.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 test\usbd_cdc_if.o: ../USER_code/Tower/Servo/servo.h
 test\usbd_cdc_if.o: ../USER_code/Tower/vision/vision_data_.h
 test\usbd_cdc_if.o: ../Core/Inc/tim.h
-test\usbd_cdc_if.o: ../USER_code/delay_us/delay_us.h

@@ -134,6 +134,8 @@ virtualFolder:
         - path: mytime_.c
         - path: mytime_.h
         - path: system_.h
+        - path: ../USER_code/Tower/Tower_test/tower_test.c
+        - path: ../USER_code/Tower/Tower_test/tower_test.h
       folders: []
     - name: ::CMSIS
       files: []

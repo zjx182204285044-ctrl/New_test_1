@@ -58,4 +58,3 @@ test\gimbal_solver.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_c
 test\gimbal_solver.o: ../USER_code/Tower/Screen/tjc_usart_hmi.h
 test\gimbal_solver.o: ../USER_code/Tower/Servo/gimbal_solver.h
 test\gimbal_solver.o: ../Core/Inc/tim.h
-test\gimbal_solver.o: ../USER_code/delay_us/delay_us.h

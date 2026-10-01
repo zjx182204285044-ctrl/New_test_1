@@ -89,6 +89,7 @@
         "../USER_code/Tower/Screen/tjc_usart_hmi.c",
         "../USER_code/Tower/Servo/gimbal_solver.c",
         "../USER_code/Tower/Servo/servo.c",
+        "../USER_code/Tower/Tower_test/tower_test.c",
         "../USER_code/Tower/bjdj/Emm_V5.c",
         "../USER_code/Tower/lll/task_tower.c",
         "../USER_code/Tower/vision/vision_data_.c",

@@ -51,7 +51,6 @@
 "test\odometer.o"
 "test\ring_buffer.o"
 "test\speed_planner.o"
-"test\delay_us.o"
 "test\pid.o"
 "test\m3508.o"
 "test\emm_v5.o"
@@ -62,6 +61,7 @@
 "test\task_tower.o"
 "test\lcd_.o"
 "test\mytime_.o"
+"test\tower_test.o"
 --strict --scatter "test\test.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

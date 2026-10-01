@@ -73,5 +73,4 @@ test\main_1.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
 test\main_1.o: ../USER_code/Tower/vision/vision_data_.h
 test\main_1.o: ../USER_code/Tower/Servo/gimbal_solver.h
 test\main_1.o: ../USER_code/Tower/vision/vision_data_.h
-test\main_1.o: ../USER_code/delay_us/delay_us.h
 test\main_1.o: ..\USER_code\Tower\lll\task_tower.h

@@ -59,4 +59,3 @@ test\task_tower.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_iore
 test\task_tower.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
 test\task_tower.o: ../USER_code/Tower/Screen/tjc_usart_hmi.h
 test\task_tower.o: ../USER_code/Tower/Servo/gimbal_solver.h
-test\task_tower.o: ../USER_code/delay_us/delay_us.h

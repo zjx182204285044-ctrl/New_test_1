@@ -51,6 +51,5 @@
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USER_code/Tower/Servo/servo.h
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USER_code/Tower/vision/vision_data_.h
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../Core/Inc/tim.h
-.\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USER_code/delay_us/delay_us.h
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USB_DEVICE/App/usb_device.h
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USER_code/Tower/lll/task_tower.h
