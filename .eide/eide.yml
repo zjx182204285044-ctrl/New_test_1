@@ -24,6 +24,7 @@ virtualFolder:
                 - path: ../Core/Src/gpio.c
                 - path: ../Core/Src/can.c
                 - path: ../Core/Src/dma.c
+                - path: ../Core/Src/fsmc.c
                 - path: ../Core/Src/tim.c
                 - path: ../Core/Src/usart.c
                 - path: ../Core/Src/stm32f4xx_it.c
@@ -64,6 +65,11 @@ virtualFolder:
             - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
             - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
             - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c
             - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
             - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
             - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
@@ -122,6 +128,12 @@ virtualFolder:
         - path: ../USER_code/Tower/vision/vision_data_.h
         - path: ../USER_code/Tower/lll/task_tower.c
         - path: ../USER_code/Tower/lll/task_tower.h
+        - path: lcd_.c
+        - path: lcd_.h
+        - path: cfont_.h
+        - path: mytime_.c
+        - path: mytime_.h
+        - path: system_.h
       folders: []
     - name: ::CMSIS
       files: []
@@ -157,6 +169,7 @@ targets:
         - ../USER_code/boards
         - ../USER_code/delay_us
         - ../USER_code/chassis
+        - .
         - .cmsis/include
         - RTE/_test
       libList: []

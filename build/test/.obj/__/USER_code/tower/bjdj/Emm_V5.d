@@ -27,6 +27,8 @@
 .\build\test\.obj\__\USER_code\Tower\bjdj\Emm_V5.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
 .\build\test\.obj\__\USER_code\Tower\bjdj\Emm_V5.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
 .\build\test\.obj\__\USER_code\Tower\bjdj\Emm_V5.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+.\build\test\.obj\__\USER_code\Tower\bjdj\Emm_V5.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h
+.\build\test\.obj\__\USER_code\Tower\bjdj\Emm_V5.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
 .\build\test\.obj\__\USER_code\Tower\bjdj\Emm_V5.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 .\build\test\.obj\__\USER_code\Tower\bjdj\Emm_V5.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 .\build\test\.obj\__\USER_code\Tower\bjdj\Emm_V5.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h

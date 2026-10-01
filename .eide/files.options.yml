@@ -17,4 +17,10 @@ version: "2.1"
 options:
     test:
         files: {}
-        virtualPathFiles: {}
+        virtualPathFiles:
+            <virtual_root>/Application/User/Core/fsmc.c: ""
+            <virtual_root>/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_fsmc.c: ""
+            <virtual_root>/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_nor.c: ""
+            <virtual_root>/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_sram.c: ""
+            <virtual_root>/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_nand.c: ""
+            <virtual_root>/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pccard.c: ""

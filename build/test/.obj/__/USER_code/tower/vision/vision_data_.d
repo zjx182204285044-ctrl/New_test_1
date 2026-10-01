@@ -26,6 +26,8 @@
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+.\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h
+.\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
@@ -51,3 +53,4 @@
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../Core/Inc/tim.h
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USER_code/delay_us/delay_us.h
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USB_DEVICE/App/usb_device.h
+.\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USER_code/Tower/lll/task_tower.h

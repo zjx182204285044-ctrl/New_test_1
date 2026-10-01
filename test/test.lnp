@@ -4,6 +4,7 @@
 "test\gpio.o"
 "test\can.o"
 "test\dma.o"
+"test\fsmc.o"
 "test\tim.o"
 "test\usart.o"
 "test\stm32f4xx_it.o"
@@ -29,6 +30,11 @@
 "test\stm32f4xx_hal.o"
 "test\stm32f4xx_hal_exti.o"
 "test\stm32f4xx_hal_can.o"
+"test\stm32f4xx_ll_fsmc.o"
+"test\stm32f4xx_hal_nor.o"
+"test\stm32f4xx_hal_sram.o"
+"test\stm32f4xx_hal_nand.o"
+"test\stm32f4xx_hal_pccard.o"
 "test\stm32f4xx_hal_tim.o"
 "test\stm32f4xx_hal_tim_ex.o"
 "test\stm32f4xx_hal_uart.o"
@@ -54,6 +60,8 @@
 "test\servo.o"
 "test\vision_data_.o"
 "test\task_tower.o"
+"test\lcd_.o"
+"test\mytime_.o"
 --strict --scatter "test\test.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

@@ -3,7 +3,7 @@
 Compiler Full Name: Component: ARM Compiler 5.06 update 7 (build 960)
 Compiler Version: 5.06
 Builder Mode: Incremental
-The amount of C files: 1
+The amount of C files: 6
 The amount of C++ files: 0
 The amount of Asm files: 0
 
@@ -13,11 +13,13 @@ The amount of Asm files: 0
 
 >>> cc
 
-
+"../USER_code/Tower/Servo/gimbal_solver.h", line 10: Error:  #5: cannot open source input file "delay_us.h": No such file or directory
+  #include "delay_us.h"
+                       ^
+.\..\Core\Src\main.c: 0 warnings, 1 error
 
 >>> ld
 
-Program Size: Code=32554 RO-data=926 RW-data=564 ZI-data=13500  
 
 
 >>> postbuild

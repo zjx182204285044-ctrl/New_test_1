@@ -25,6 +25,8 @@
 .\build\test\.obj\__\Core\Src\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
 .\build\test\.obj\__\Core\Src\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
 .\build\test\.obj\__\Core\Src\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+.\build\test\.obj\__\Core\Src\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h
+.\build\test\.obj\__\Core\Src\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
 .\build\test\.obj\__\Core\Src\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 .\build\test\.obj\__\Core\Src\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 .\build\test\.obj\__\Core\Src\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
@@ -41,6 +43,7 @@
 .\build\test\.obj\__\Core\Src\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
 .\build\test\.obj\__\Core\Src\main.o: ../USB_DEVICE/Target/usbd_conf.h
 .\build\test\.obj\__\Core\Src\main.o: ../Core/Inc/gpio.h
+.\build\test\.obj\__\Core\Src\main.o: ../Core/Inc/fsmc.h
 .\build\test\.obj\__\Core\Src\main.o: ../USER_code/chassis/M3508.h
 .\build\test\.obj\__\Core\Src\main.o: ../USER_code/pid/pid.h
 .\build\test\.obj\__\Core\Src\main.o: ../USER_code/application/struct_typedef.h
@@ -63,5 +66,3 @@
 .\build\test\.obj\__\Core\Src\main.o: ../USER_code/Tower/vision/vision_data_.h
 .\build\test\.obj\__\Core\Src\main.o: ../USER_code/Tower/Servo/gimbal_solver.h
 .\build\test\.obj\__\Core\Src\main.o: ../USER_code/Tower/vision/vision_data_.h
-.\build\test\.obj\__\Core\Src\main.o: ../USER_code/delay_us/delay_us.h
-.\build\test\.obj\__\Core\Src\main.o: ../USER_code/Tower/lll/task_tower.h

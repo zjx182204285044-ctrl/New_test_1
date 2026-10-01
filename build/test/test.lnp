@@ -2,6 +2,7 @@
 --list .\build\test\test.map
 .\build\test\.obj\__\Core\Src\can.o
 .\build\test\.obj\__\Core\Src\dma.o
+.\build\test\.obj\__\Core\Src\fsmc.o
 .\build\test\.obj\__\Core\Src\gpio.o
 .\build\test\.obj\__\Core\Src\main.o
 .\build\test\.obj\__\Core\Src\stm32f4xx_hal_msp.o
@@ -19,15 +20,20 @@
 .\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o
 .\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o
 .\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o
+.\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nand.o
+.\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nor.o
+.\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pccard.o
 .\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.o
 .\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.o
 .\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o
 .\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o
 .\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o
 .\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o
+.\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.o
 .\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o
 .\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o
 .\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.o
+.\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.o
 .\build\test\.obj\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.o
 .\build\test\.obj\__\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
 .\build\test\.obj\__\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
@@ -54,4 +60,6 @@
 .\build\test\.obj\__\USER_code\chassis\speed_planner.o
 .\build\test\.obj\__\USER_code\delay_us\delay_us.o
 .\build\test\.obj\__\USER_code\pid\pid.o
+.\build\test\.obj\lcd_.o
+.\build\test\.obj\mytime_.o
 .\build\test\.obj\startup_stm32f407xx.o -o .\build\test\test.axf
