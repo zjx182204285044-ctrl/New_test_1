@@ -46,7 +46,7 @@ test\task_tower.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 test\task_tower.o: ../Core/Inc/tim.h
 test\task_tower.o: ../USER_code/Tower/Servo/gimbal_solver.h
 test\task_tower.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
-test\task_tower.o: ../USER_code/Tower/vision/vision_data_.h
+test\task_tower.o: ..\USER_code\Tower\vision\vision_data_.h
 test\task_tower.o: ../USB_DEVICE/App/usbd_cdc_if.h
 test\task_tower.o: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h
 test\task_tower.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h

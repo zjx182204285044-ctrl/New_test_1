@@ -37,3 +37,4 @@
 .\build\test\.obj\__\Core\Src\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
 .\build\test\.obj\__\Core\Src\stm32f4xx_it.o: ../Core/Inc/stm32f4xx_it.h
 .\build\test\.obj\__\Core\Src\stm32f4xx_it.o: ../Core/Inc/usart.h
+.\build\test\.obj\__\Core\Src\stm32f4xx_it.o: ../USER_code/chassis/imu.h

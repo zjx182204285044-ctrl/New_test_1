@@ -36,6 +36,7 @@
 .\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h
 .\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h
 .\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+.\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../USER_code/Tower/vision/task_vision_up.h
 .\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../USER_code/Tower/Servo/servo.h
 .\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../USER_code/Tower/lll/task_tower.h
 .\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../USER_code/Tower/bjdj/Emm_v5.h
@@ -53,3 +54,10 @@
 .\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
 .\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../USER_code/Tower/Screen/tjc_usart_hmi.h
 .\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../USER_code/Tower/Servo/gimbal_solver.h
+.\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../USER_code/Tower/vision/task_vision_up.h
+.\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../USER_code/Tower/Tower_test/tower_test.h
+.\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../USER_code/DM_Tower/djdj/dm_tower_test.h
+.\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../USER_code/DM_Tower/dmdj/DM_task.h
+.\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../USER_code/DM_Tower/dmdj/J4340.h
+.\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../Core/Inc/can.h
+.\build\test\.obj\__\USER_code\Tower\Tower_test\tower_test.o: ../USER_code/DM_Tower/djdj/dm_tower_test.h

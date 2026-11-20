@@ -48,7 +48,7 @@ test\usbd_cdc_if.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
 test\usbd_cdc_if.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h
 test\usbd_cdc_if.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
 test\usbd_cdc_if.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
-test\usbd_cdc_if.o: ../USER_code/Tower/vision/vision_data_.h
+test\usbd_cdc_if.o: ..\USER_code\Tower\vision\vision_data_.h
 test\usbd_cdc_if.o: ../USER_code/Tower/Screen/tjc_usart_hmi.h
 test\usbd_cdc_if.o: ../USER_code/Tower/Servo/gimbal_solver.h
 test\usbd_cdc_if.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
@@ -56,5 +56,5 @@ test\usbd_cdc_if.o: ../USER_code/Tower/bjdj/Emm_V5.h
 test\usbd_cdc_if.o: ../Core/Inc/usart.h
 test\usbd_cdc_if.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 test\usbd_cdc_if.o: ../USER_code/Tower/Servo/servo.h
-test\usbd_cdc_if.o: ../USER_code/Tower/vision/vision_data_.h
+test\usbd_cdc_if.o: ..\USER_code\Tower\vision\vision_data_.h
 test\usbd_cdc_if.o: ../Core/Inc/tim.h

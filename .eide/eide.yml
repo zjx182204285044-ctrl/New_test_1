@@ -107,12 +107,14 @@ virtualFolder:
         - path: ../USER_code/chassis/ring_buffer.h
         - path: ../USER_code/chassis/speed_planner.c
         - path: ../USER_code/chassis/speed_planner.h
-        - path: ../USER_code/delay_us/delay_us.c
-        - path: ../USER_code/delay_us/delay_us.h
         - path: ../USER_code/pid/pid.c
         - path: ../USER_code/pid/pid.h
         - path: ../USER_code/chassis/M3508.c
         - path: ../USER_code/chassis/M3508.h
+        - path: ../USER_code/chassis/chassis_task.c
+        - path: ../USER_code/chassis/chassis_task.h
+        - path: ../USER_code/chassis/task_vision_down.c
+        - path: ../USER_code/chassis/task_vision_down.h
       folders: []
     - name: TOEWR
       files:
@@ -136,9 +138,22 @@ virtualFolder:
         - path: system_.h
         - path: ../USER_code/Tower/Tower_test/tower_test.c
         - path: ../USER_code/Tower/Tower_test/tower_test.h
+        - path: ../USER_code/Tower/vision/task_vision_up.c
+        - path: ../USER_code/Tower/vision/task_vision_up.h
       folders: []
     - name: ::CMSIS
       files: []
+      folders: []
+    - name: DM_TOWER
+      files:
+        - path: ../USER_code/DM_Tower/dmdj/bsp_can_dm.c
+        - path: ../USER_code/DM_Tower/dmdj/bsp_can_dm.h
+        - path: ../USER_code/DM_Tower/dmdj/DM_task.c
+        - path: ../USER_code/DM_Tower/dmdj/DM_task.h
+        - path: ../USER_code/DM_Tower/dmdj/J4340.c
+        - path: ../USER_code/DM_Tower/dmdj/J4340.h
+        - path: ../USER_code/DM_Tower/djdj/dm_tower_test.c
+        - path: ../USER_code/DM_Tower/djdj/dm_tower_test.h
       folders: []
 dependenceList: []
 outDir: build
@@ -171,11 +186,17 @@ targets:
         - ../USER_code/boards
         - ../USER_code/delay_us
         - ../USER_code/chassis
+        - ../USER_code/DM_Tower/dmdj
+        - ../USER_code/DM_Tower/djdj
         - .
+        - ../USER_code/Tower/Tower_test
         - .cmsis/include
         - RTE/_test
+        - ../USER_code/DM_Tower
       libList: []
-    excludeList: []
+    excludeList:
+      - ../USER_code/DM_Tower/djdj
+      - ../USER_code/DM_Tower/dmdj
     settings:
       debugger: cortex-debug
     toolchain: AC5

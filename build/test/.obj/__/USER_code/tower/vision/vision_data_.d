@@ -53,3 +53,12 @@
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../Core/Inc/tim.h
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USB_DEVICE/App/usb_device.h
 .\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USER_code/Tower/lll/task_tower.h
+.\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USER_code/Tower/vision/task_vision_up.h
+.\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USER_code/Tower/lll/task_tower.h
+.\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USER_code/Tower/Tower_test/tower_test.h
+.\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USER_code/Tower/vision/task_vision_up.h
+.\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USER_code/DM_Tower/djdj/dm_tower_test.h
+.\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USER_code/DM_Tower/dmdj/DM_task.h
+.\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USER_code/DM_Tower/dmdj/J4340.h
+.\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../Core/Inc/can.h
+.\build\test\.obj\__\USER_code\Tower\vision\vision_data_.o: ../USER_code/DM_Tower/djdj/dm_tower_test.h

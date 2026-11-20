@@ -38,6 +38,7 @@ test\tower_test.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 test\tower_test.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h
 test\tower_test.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h
 test\tower_test.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+test\tower_test.o: ..\USER_code\Tower\vision\task_vision_up.h
 test\tower_test.o: ../USER_code/Tower/Servo/servo.h
 test\tower_test.o: ..\USER_code\Tower\lll\task_tower.h
 test\tower_test.o: ../USER_code/Tower/bjdj/Emm_v5.h
@@ -47,7 +48,7 @@ test\tower_test.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 test\tower_test.o: ../Core/Inc/tim.h
 test\tower_test.o: ../USER_code/Tower/Servo/gimbal_solver.h
 test\tower_test.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
-test\tower_test.o: ../USER_code/Tower/vision/vision_data_.h
+test\tower_test.o: ..\USER_code\Tower\vision\vision_data_.h
 test\tower_test.o: ../USB_DEVICE/App/usbd_cdc_if.h
 test\tower_test.o: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h
 test\tower_test.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
@@ -60,3 +61,10 @@ test\tower_test.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_iore
 test\tower_test.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
 test\tower_test.o: ../USER_code/Tower/Screen/tjc_usart_hmi.h
 test\tower_test.o: ../USER_code/Tower/Servo/gimbal_solver.h
+test\tower_test.o: ..\USER_code\Tower\Tower_test\tower_test.h
+test\tower_test.o: ..\USER_code\DM_Tower\djdj\dm_tower_test.h
+test\tower_test.o: ..\USER_code\Tower\vision\task_vision_up.h
+test\tower_test.o: ..\USER_code\DM_Tower\dmdj\DM_task.h
+test\tower_test.o: ..\USER_code\DM_Tower\dmdj\J4340.h
+test\tower_test.o: ../Core/Inc/can.h
+test\tower_test.o: ..\USER_code\DM_Tower\djdj\dm_tower_test.h

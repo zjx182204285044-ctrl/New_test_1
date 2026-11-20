@@ -53,6 +53,8 @@
 "test\speed_planner.o"
 "test\pid.o"
 "test\m3508.o"
+"test\chassis_task.o"
+"test\task_vision_down.o"
 "test\emm_v5.o"
 "test\tjc_usart_hmi.o"
 "test\gimbal_solver.o"
@@ -62,6 +64,11 @@
 "test\lcd_.o"
 "test\mytime_.o"
 "test\tower_test.o"
+"test\task_vision_up.o"
+"test\bsp_can_dm.o"
+"test\dm_task.o"
+"test\j4340.o"
+"test\dm_tower_test.o"
 --strict --scatter "test\test.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

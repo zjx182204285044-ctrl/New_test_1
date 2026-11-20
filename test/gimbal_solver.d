@@ -44,7 +44,7 @@ test\gimbal_solver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
 test\gimbal_solver.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 test\gimbal_solver.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 test\gimbal_solver.o: ..\USER_code\Tower\Servo\servo.h
-test\gimbal_solver.o: ../USER_code/Tower/vision/vision_data_.h
+test\gimbal_solver.o: ..\USER_code\Tower\vision\vision_data_.h
 test\gimbal_solver.o: ../USB_DEVICE/App/usbd_cdc_if.h
 test\gimbal_solver.o: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h
 test\gimbal_solver.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h

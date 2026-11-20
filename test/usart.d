@@ -41,7 +41,7 @@ test\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
 test\usart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 test\usart.o: ../USER_code/Tower/Screen/tjc_usart_hmi.h
 test\usart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-test\usart.o: ../USER_code/Tower/vision/vision_data_.h
+test\usart.o: ..\USER_code\Tower\vision\vision_data_.h
 test\usart.o: ../USB_DEVICE/App/usbd_cdc_if.h
 test\usart.o: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h
 test\usart.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
@@ -56,5 +56,5 @@ test\usart.o: ../USER_code/Tower/Servo/gimbal_solver.h
 test\usart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 test\usart.o: ../USER_code/Tower/bjdj/Emm_V5.h
 test\usart.o: ../USER_code/Tower/Servo/servo.h
-test\usart.o: ../USER_code/Tower/vision/vision_data_.h
+test\usart.o: ..\USER_code\Tower\vision\vision_data_.h
 test\usart.o: ../Core/Inc/tim.h
