@@ -48,3 +48,11 @@ These source files will be recompiled
 [2026-11-21 02:57:05]	[done]
 	build successfully !
 
+[2026-11-21 03:16:28]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\success\testtest001(1)\testtest001 (2)\testtest001\restore\testtest2\test\Core\Src\main.c': source file has been changed.
+
+[2026-11-21 03:16:30]	[done]
+	build successfully !
+
